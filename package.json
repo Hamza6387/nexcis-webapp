@@ -1,0 +1,30 @@
+{
+  "name": "nexcis-assignment",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export",
+    "deploy": "next build && firebase deploy"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^7.1.0",
+    "@mui/material": "^7.1.0",
+    "expo-constants": "~17.1.6",
+    "expo-device": "~7.1.4",
+    "expo-notifications": "^0.31.2",
+    "firebase": "^11.7.3",
+    "firebase-admin": "^13.4.0",
+    "firebase-functions": "^6.3.2",
+    "next": "^15.3.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "swr": "^2.3.3"
+  },
+  "devDependencies": {
+    "firebase-tools": "^14.4.0"
+  }
+}
